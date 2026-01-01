@@ -1,3 +1,4 @@
+import 'package:bloc_demo/pages/quote/quote_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,6 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: 'Flutter Bloc Demo');
+    return MaterialApp(title: 'Flutter Bloc Demo', home: QuotePage());
   }
 }
