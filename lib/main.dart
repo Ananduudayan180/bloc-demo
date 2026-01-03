@@ -10,6 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: 'Flutter Bloc Demo', home: QuotePage());
+    return MaterialApp(
+      title: 'Flutter Bloc Demo',
+      home: QuotePageWrapperProvider(),
+    );
   }
 }

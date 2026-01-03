@@ -9,7 +9,7 @@ class QuoteWidget extends StatelessWidget {
     return Material(
       elevation: 5,
       borderRadius: BorderRadius.circular(15),
-      child: Container(
+      child: Container(height: 80,
         decoration: BoxDecoration(
           color: Colors.green,
           borderRadius: BorderRadius.circular(15),
